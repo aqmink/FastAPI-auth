@@ -17,7 +17,7 @@ config = context.config
 
 section = config.config_ini_section
 
-config.set_section_option(section, "DB_USERNAME", DB_USERNAME)
+config.set_section_option(section, "DB_USERNAME", "root")
 config.set_section_option(section, "DB_HOST", DB_HOST)
 config.set_section_option(section, "DB_NAME", DB_NAME)
 config.set_section_option(section, "DB_PASSWORD", DB_PASSWORD)

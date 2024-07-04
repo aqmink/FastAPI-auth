@@ -13,7 +13,7 @@ app.include_router(auth_router.router)
 
 app.add_middleware(
     middleware_class=CORSMiddleware,
-    allow_origins=["localhost:8000"],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     allow_headers=["*",],

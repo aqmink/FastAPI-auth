@@ -10,4 +10,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-RUN chmod a+x /app/docker/*.sh
+RUN chmod a+x /fastapi_app/docker/*.sh
